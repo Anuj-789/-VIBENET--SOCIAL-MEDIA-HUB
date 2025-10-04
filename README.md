@@ -1,10 +1,12 @@
-# -VIBENET--SOCIAL-MEDIA-HUB
+# VIBENET--SOCIAL-MEDIA-HUB
 
-🌐 Vibenet - Social Media Hub
+**🌐 Vibenet - Social Media Hub**
 
 -------Where every Vibe finds its Tribe
 
-Vibenet is a Python-based, command-line social media hub that allows users ("Vibers") to post thoughts, react, comment, earn badges, join tribes, and explore trending content. This project demonstrates a fully functional social platform backend with a menu-driven CLI interface, ideal for learning, experimentation, and gamified social networking. tavles created
+Vibenet is a Python-based, command-line social media hub that allows users ("Vibers") to post thoughts, react, comment, earn badges, join tribes, and explore trending content. This project demonstrates a fully functional social platform backend with a menu-driven CLI interface, ideal for learning, experimentation, and gamified social networking.
+<img width="1242" height="695" alt="tavles created" src="https://github.com/user-attachments/assets/a6d99a08-e67b-44a1-8f2b-974c162c1800" />
+
 
 🚀 Features
 
@@ -64,7 +66,9 @@ Step-by-step prompts for all operations.
 
 Optional arguments mode for automated actions.
 
-🔧 Modules & Methods 1️⃣ Viber
+
+🔧 Modules & Methods
+1️⃣ Viber
 
 DAO: viber_dao.py
 
@@ -204,17 +208,21 @@ Register a Viber:
 
 python -m src.cli.main viber register --username "Trisha" --email "trisha@example.com" --password "1234"
 
+
 Create a Thought:
 
 python -m src.cli.main thought create --viber_id 1 --content "Exploring vibes!" --emotion_tag Joy
+
 
 Like a Post:
 
 python -m src.cli.main post like --post_id 1
 
+
 Join a Tribe:
 
 python -m src.cli.main tribe join --viber_id 1 --tribe_id 2
+
 
 List Joined Tribes:
 
